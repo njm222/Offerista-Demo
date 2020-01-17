@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Offerista Demo - Posts {% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Posts page</h1>
+    <div class="posts-container">
+    {% if posts %}
+        {% for post in posts %}
+        <div class="post" id="post-{{ post.id }}">
+            <div><strong>User ID:</strong> {{ post.userId }}</div>
+            <div><strong>Post ID:</strong> {{ post.id }}</div>
+            <div><strong>Title:</strong> {{ post.title }}</div>
+            <div><strong>Body:</strong> {{ post.body }}</div>
+            <a class="comments-button" id="{{ post.id }}" href="#">
+                <button>Show comments for post ({{ post.id }})</button>
+            </a>
+            <div class="comments-container" id="comments-{{ post.id }}"></div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>Error loading posts from server. (Try refresh the page)</p>
+    {% endif %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
