@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88694a1b-4367-49e1-92e3-36b117f30670" name="Default Changelist" comment="" />
+    <list default="true" id="88694a1b-4367-49e1-92e3-36b117f30670" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/OfferistaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OfferistaDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +20,10 @@
       <executable />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
@@ -91,9 +101,13 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/vendor/php-webdriver/webdriver" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WUrrJOndd3kj2RGHerzMkzO6xf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -102,7 +116,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/php-7.2.26-Win32-VC15-x64/php.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,9 +158,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="188" key="FileChooserDialogImpl" timestamp="1579216291689">
+    <state x="573" y="88" key="#CLI_Interpreters" timestamp="1579580551181">
       <screen x="0" y="0" width="1986" height="864" />
     </state>
-    <state x="774" y="188" key="FileChooserDialogImpl/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579216291689" />
+    <state x="573" y="88" key="#CLI_Interpreters/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579580551181" />
+    <state x="796" y="329" key="ComposerInitDialogKey" timestamp="1579580716339">
+      <screen x="0" y="0" width="1986" height="864" />
+    </state>
+    <state x="796" y="329" key="ComposerInitDialogKey/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579580716339" />
+    <state x="774" y="188" key="FileChooserDialogImpl" timestamp="1579580207174">
+      <screen x="0" y="0" width="1986" height="864" />
+    </state>
+    <state x="774" y="188" key="FileChooserDialogImpl/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579580207174" />
+    <state x="502" y="76" key="SettingsEditor" timestamp="1579580717469">
+      <screen x="0" y="0" width="1986" height="864" />
+    </state>
+    <state x="502" y="76" key="SettingsEditor/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579580717469" />
+    <state x="656" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1579580764301">
+      <screen x="0" y="0" width="1986" height="864" />
+    </state>
+    <state x="656" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1986.864/-1080.-1266.864.2008@0.0.1986.864" timestamp="1579580764301" />
   </component>
 </project>

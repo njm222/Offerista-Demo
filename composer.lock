@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a14287bd9f0a4e077185b289b60fe0f6",
+    "content-hash": "637bfba5b5318618927f2940600fd1c0",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -137,16 +137,16 @@
             "time": "2019-10-30T14:39:59+00:00"
         },
         {
-            "name": "facebook/webdriver",
+            "name": "php-webdriver/webdriver",
             "version": "1.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver.git",
                 "reference": "e43de70f3c7166169d0f14a374505392734160e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/e43de70f3c7166169d0f14a374505392734160e5",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/e43de70f3c7166169d0f14a374505392734160e5",
                 "reference": "e43de70f3c7166169d0f14a374505392734160e5",
                 "shasum": ""
             },
@@ -2805,21 +2805,21 @@
         },
         {
             "name": "symfony/panther",
-            "version": "v0.6.0",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/panther.git",
-                "reference": "0aeafcf21af2727da3536acf2a9c3778e3a5f222"
+                "reference": "e774e332bd5ec1d31c774fc4b2a6a72627c37921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/panther/zipball/0aeafcf21af2727da3536acf2a9c3778e3a5f222",
-                "reference": "0aeafcf21af2727da3536acf2a9c3778e3a5f222",
+                "url": "https://api.github.com/repos/symfony/panther/zipball/e774e332bd5ec1d31c774fc4b2a6a72627c37921",
+                "reference": "e774e332bd5ec1d31c774fc4b2a6a72627c37921",
                 "shasum": ""
             },
             "require": {
-                "facebook/webdriver": "^1.7.1",
                 "php": ">=7.1",
+                "php-webdriver/webdriver": "^1.7.1",
                 "symfony/browser-kit": "^4.3 || ^5.0",
                 "symfony/dom-crawler": "^4.3 || ^5.0",
                 "symfony/http-client": "^4.3 || ^5.0",
@@ -2872,7 +2872,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2019-10-28T17:01:40+00:00"
+            "time": "2020-01-20T15:24:48+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -2978,5 +2978,8 @@
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.2.24"
+    }
 }
