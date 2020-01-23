@@ -3,7 +3,10 @@
 {% block title %} Offerista Demo - Posts {% endblock %}
 
 {% block body %}
-    <h1>Welcome to the Posts page</h1>
+    <div class="title-container">
+        <h1>Welcome to the Posts page</h1>
+        <a href="/"><button>Back</button></a>
+    </div>
     <div class="posts-container">
     {% if posts %}
         {% for post in posts %}

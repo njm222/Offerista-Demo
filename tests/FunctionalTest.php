@@ -26,7 +26,7 @@ class FunctionalTest extends WebTestCase
             $crawler = $client->getCrawler();
             $link = $crawler->filter('a')->first()->link();
             $pageContent = $client->click($link);
-            $this->assertContains('/posts', $pageContent->getBaseHref());
+            $this->assertContainsOnly('/posts', $pageContent->getBaseHref());
         }
     }
 
@@ -37,5 +37,20 @@ class FunctionalTest extends WebTestCase
         $client->request('GET', '/posts');
         // check response is valid
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
+    }
+
+    public function testBackButtonOnPostsPage () {
+        // create client
+        $client = static::createClient();
+        // get page
+        $client->request('GET', '/posts');
+        // check response is valid
+        if($this->assertEquals( 200, $client->getResponse()->getStatusCode())) {
+            // check if crawled to /
+            $crawler = $client->getCrawler();
+            $link = $crawler->filter('a')->first()->link();
+            $pageContent = $client->click($link);
+            $this->assertContainsOnly('/', $pageContent->getBaseHref());
+        }
     }
 }
