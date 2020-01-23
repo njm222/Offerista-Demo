@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="88694a1b-4367-49e1-92e3-36b117f30670" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommentsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommentsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FunctionalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FunctionalTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PostsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PostsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +106,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/panther" />
       <path value="$PROJECT_DIR$/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WUrrJOndd3kj2RGHerzMkzO6xf" />

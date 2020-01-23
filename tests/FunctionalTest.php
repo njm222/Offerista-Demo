@@ -21,14 +21,12 @@ class FunctionalTest extends WebTestCase
         // get page
         $client->request('GET', '/');
         // check response is valid
-        if($client->getResponse()->getStatusCode() === 200) {
+        if($this->assertEquals( 200, $client->getResponse()->getStatusCode())) {
             // check if crawled to /posts
             $crawler = $client->getCrawler();
             $link = $crawler->filter('a')->first()->link();
             $pageContent = $client->click($link);
             $this->assertContains('/posts', $pageContent->getBaseHref());
-        } else {
-            $this->assertTrue(false);
         }
     }
 

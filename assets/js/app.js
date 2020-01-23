@@ -52,7 +52,7 @@ document.body.onload = function() {
     for (let commentButton of posts) {
         // add on click listener
         commentButton.addEventListener("click", function () {
-            loadComments(commentButton.id);
+            loadComments(commentButton.id).then(r => {});
         });
 
     }

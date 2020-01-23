@@ -7,6 +7,24 @@ use PHPUnit\Framework\TestCase;
 
 class PostsTest extends TestCase
 {
+    public function testCheckStatus() {
+        // initialize new controller
+        $postsController = new PostsController();
+        // invoke function checkStatusOK
+        $statusResponse = $postsController->checkStatus(200);
+        // check that the response is false
+        $this->assertFalse($statusResponse);
+    }
+
+    public function testCheckStatusError() {
+        // initialize new controller
+        $postsController = new PostsController();
+        // invoke function checkStatusOK
+        $statusResponse = $postsController->checkStatus("statusError");
+        // check that the response is true
+        $this->assertTrue($statusResponse);
+    }
+
     public function testGetPosts() {
         // initialize new controller
         $postsController = new PostsController();
